@@ -47,8 +47,8 @@ def school_attendance_app(title, database_file, attendance_log_file):
         st.session_state.children_database = df
 
     def send_email(recipient_email, child_name, action, signer):
-        sender_email = "wingateabuja@gmail.com"  # Replace with your email
-        sender_password = "boki opay ozsu voyi"  # Replace with your password
+        sender_email = "tuwa.1simon@gmail.com"  # Replace with your email
+        sender_password = "bbjq vchz myld krwz"  # Replace with your password
 
         try:
             server = smtplib.SMTP('smtp.gmail.com', 587)
