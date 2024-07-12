@@ -15,7 +15,6 @@ with col2:
     #st.image("wingate.png", width=150, use_column_width=False, output_format='auto')
 with col4:
     st.write("")
-
 def primary():
     school_attendance_app("Primary School Attendance", "primary_students_database.xlsx", "primary_attendance_log.csv")
 
